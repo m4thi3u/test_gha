@@ -1,4 +1,4 @@
-name: practice_1
+name: practice_1a
 on: push
 jobs:
   test_and_lint:

@@ -1,0 +1,10 @@
+name: practice_1b
+on:
+  issues:
+    types: [opened]
+jobs:
+  output_event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print event output
+        run: echo "${{ github.event }}"
